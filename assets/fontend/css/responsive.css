@@ -1,0 +1,31 @@
+@media (max-width: 761px) and (min-width:740px) {
+    .menu #nav li a{
+        font-size: 1.8rem;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px){
+    .menu{
+        display: none;
+    }
+
+    .head-top{
+        display: none !important;
+    }
+
+    .home-slider .item .content p{
+        font-size: 2rem;
+        width: 300px;
+    }
+
+    .representative .box-container{
+        margin: 0;
+        padding-right: 0.6rem;
+        padding-left: 1rem;
+    }
+
+    .footer .box-container{
+        margin: 0;
+    }
+}
